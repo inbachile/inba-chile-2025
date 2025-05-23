@@ -1,5 +1,5 @@
 const filas = "ABCDEFGHIJK".split(""); // A a K como filas (vertical)
-const columnas = 21; // 1 a 21 como columnas (horizontal)
+const columnas = 21; // 21 a 1 como columnas (horizontal)
 const sala = document.getElementById("sala");
 const encabezado = document.getElementById("encabezado");
 const seleccionados = new Set();

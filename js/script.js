@@ -6,8 +6,8 @@ const seleccionados = new Set();
 const seleccionadosDiv = document.getElementById("seleccionados");
 const ocupados = []; // Ejemplo: ["A1", "C2"]
 
-// Crear encabezado con números 1 al 21
-for (let i = 1; i <= columnas; i++) {
+// Crear encabezado con números 21 al 1
+for (let i = 21; i <= columnas; i++) {
     const numDiv = document.createElement("div");
     numDiv.className = "letra";
     numDiv.textContent = i;
@@ -19,7 +19,7 @@ filas.forEach(fila => {
     const filaDiv = document.createElement("div");
     filaDiv.className = "fila";
 
-    for (let col = 1; col <= columnas; col++) {
+    for (let col = 21; col <= columnas; col++) {
         const id = fila + col;
         const seat = document.createElement("div");
         seat.className = "asiento";

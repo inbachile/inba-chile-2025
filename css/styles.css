@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+header, footer {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+}
+.teatro {
+    padding: 20px;
+}
+.escenario {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.fila {
+    display: flex;
+    justify-content: center;
+}
+.encabezado .letra {
+    width: 30px;
+    font-weight: bold;
+}
+.columna {
+    flex-direction: column;
+    margin: 0 2px;
+}
+.asiento {
+    width: 30px;
+    height: 30px;
+    margin: 1px 0;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+.asiento.vip {
+    background-color: gold;
+    color: black;
+}
+.asiento.ocupado {
+    background-color: red;
+    cursor: not-allowed;
+}
+#seleccionados {
+    margin-top: 20px;
+    font-weight: bold;
+}
+button.enviar {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+}
